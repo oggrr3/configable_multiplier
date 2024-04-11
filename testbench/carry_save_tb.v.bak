@@ -1,0 +1,40 @@
+module carry_save_tb ();
+    reg   [7 : 0]   x_i       ;
+    reg   [8 : 0]   y_i       ;
+    reg   [9 : 0]   z_i       ;
+    wire  [9 : 0]   u_o       ;                     //  sum:    U(i) = parity (xi, yi, zi)
+    wire  [9 : 0]   v_o       ; 
+
+    wire   [10 : 0]  product     ;
+    // dut
+    carry_save_adder_y_smaller_z #(8,9,10)      dut
+    (
+        .x_i    (x_i       )   ,
+        .y_i    (y_i       )   ,
+        .z_i    (z_i       )   ,
+        .u_o    (u_o       )   ,                           //  U(i)     = parity (xi, yi, zi)
+        .v_o    (v_o       )         
+    );
+
+    initial begin
+        x_i =   101;
+        y_i = 99    ;
+        z_i = 23    ;
+        product =   u_o + v_o   ;
+        #5;
+
+        x_i = 0      ;
+        y_i = 0    ;
+        z_i = 0    ;
+        product =   u_o + v_o   ;
+        #5;
+
+        x_i = 255;
+        y_i = 511    ;
+        z_i = 1023    ;
+        product =   u_o + v_o   ;
+        #5;
+
+    end
+
+endmodule

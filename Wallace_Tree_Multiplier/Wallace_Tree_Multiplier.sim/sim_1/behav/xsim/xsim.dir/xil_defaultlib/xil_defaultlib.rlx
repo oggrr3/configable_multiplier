@@ -1,0 +1,20 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/Booth_Multiplication/booth_multiply_fsmd.v,1712804026,verilog,,D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/Multiplication/configurable_multiplication.v,,booth_multiply_fsmd,,,,,,,,
+D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/Booth_Multiplication/booth_multiply_fsmd_tb.v,1712495756,verilog,,,,booth_multiply_fsmd_tb,,,,,,,,
+D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/Multiplication/configurable_multiplication.v,1712805897,verilog,,D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/Multiplication/sign_extra_unit.v,,configurable_multiplication,,,,,,,,
+D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/Multiplication/configurable_multiplication_tb.v,1712806116,verilog,,,,configurable_multiplication_tb,,,,,,,,
+D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/Multiplication/sign_extra_unit.v,1712771001,verilog,,D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/Multiplication/configurable_multiplication_tb.v,,sign_extra_unit,,,,,,,,
+D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/Wallace_Tree_Multiplier/Wallace_Tree_Multiplier.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/carry_save_adder_y_smaller_z.v,1711009102,verilog,,D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/fulladder.v,,carry_save_adder_y_smaller_z,,,,,,,,
+D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/cary_save_adder_y_equal_z.v,1711010378,verilog,,D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/fulladder.v,,carry_save_adder_y_equal_z,,,,,,,,
+D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/compression_wallace_tree.v,1711010419,verilog,,D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/fulladder.v,,compression_wallace_tree,,,,,,,,
+D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/fulladder.v,1711006864,verilog,,D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/testbench/carry_save_tb.v,,fulladder,,,,,,,,
+D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/partial_product_generator.v,1711011336,verilog,,D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/wallace_tree_multipler_top.v,,partial_product_generator,,,,,,,,
+D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/ripple_carry_adder.v,1711011284,verilog,,D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/wallace_tree_multipler_top.v,,ripple_carry_adder,,,,,,,,
+D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/testbench/carry_save_tb.v,1712219990,verilog,,,,carry_save_tb,,,,,,,,
+D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/testbench/test.v,1712223151,verilog,,,,test,,,,,,,,
+D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/wallace_tree_multipler_top.v,1711621003,verilog,,D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/wallace_tree_multipler_top_tb.v,,wallace_tree_multiplier_top,,,,,,,,
+D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/wallace_tree_multipler_top_tb.v,1711016270,verilog,,,,wallace_tree_multiplier_top_tb,,,,,,,,

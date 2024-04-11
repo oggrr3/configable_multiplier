@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Apr 11 14:02:09 2024
+# Process ID: 2920
+# Current directory: D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/Wallace_Tree_Multiplier/Wallace_Tree_Multiplier.runs/impl_1
+# Command line: vivado.exe -log configurable_multiplication.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source configurable_multiplication.tcl -notrace
+# Log file: D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/Wallace_Tree_Multiplier/Wallace_Tree_Multiplier.runs/impl_1/configurable_multiplication.vdi
+# Journal file: D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/Wallace_Tree_Multiplier/Wallace_Tree_Multiplier.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source configurable_multiplication.tcl -notrace

@@ -1,0 +1,10 @@
+module test ();
+	wire [7:0] a;
+	assign a = 21;
+	assign x = {a,3'b101};
+	initial begin
+		$display("%d", a);
+	end
+
+
+endmodule

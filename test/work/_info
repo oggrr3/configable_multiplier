@@ -1,0 +1,220 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+vcarry_save_adder_y_equal_z
+Z0 !s110 1711016995
+!i10b 1
+!s100 meoC:UV4FaG0YPEcKYZaZ3
+IbYi_>JRgXkhPTM=P0X5a20
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/test
+w1711010378
+8D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/cary_save_adder_y_equal_z.v
+FD:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/cary_save_adder_y_equal_z.v
+L0 3
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1711016994.000000
+!s107 D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/cary_save_adder_y_equal_z.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/cary_save_adder_y_equal_z.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vcarry_save_adder_y_smaller_z
+Z7 !s110 1711016994
+!i10b 1
+!s100 nhGD9ae?AmAFgkC_@^d7P3
+IY>16Ne[J^DnhQK<`iHg2I3
+R1
+R2
+w1711009102
+8D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/carry_save_adder_y_smaller_z.v
+FD:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/carry_save_adder_y_smaller_z.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/carry_save_adder_y_smaller_z.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/carry_save_adder_y_smaller_z.v|
+!i113 1
+R5
+R6
+vcarry_save_tb
+R0
+!i10b 1
+!s100 ;PHNZ1[fkZ;4?jnZio8>E2
+InlID[bmg?^D[Dm^;H;_c=0
+R1
+R2
+w1711016991
+8D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/testbench/carry_save_tb.v
+FD:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/testbench/carry_save_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1711016995.000000
+!s107 D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/testbench/carry_save_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/testbench/carry_save_tb.v|
+!i113 1
+R5
+R6
+vcompression_wallace_tree
+R0
+!i10b 1
+!s100 Jc@GcRhlK9P8LbAo7<?E23
+I@a^kibWBb3l8Pc1kOaSlJ0
+R1
+R2
+w1711010419
+8D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/compression_wallace_tree.v
+FD:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/compression_wallace_tree.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/compression_wallace_tree.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/compression_wallace_tree.v|
+!i113 1
+R5
+R6
+vfulladder
+R0
+!i10b 1
+!s100 FGQj<S?RFk3EEi5<W]23[1
+IcndP3cSk10lo8AeS56W1[2
+R1
+R2
+w1711006864
+8D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/fulladder.v
+FD:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/fulladder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/fulladder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/fulladder.v|
+!i113 1
+R5
+R6
+vpartial_product_generator
+R0
+!i10b 1
+!s100 DXo96iDcVNdSf>PR1L`1^2
+I:M>ZNU^K1HI14H31<Pn9P1
+R1
+R2
+w1711011336
+8D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/partial_product_generator.v
+FD:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/partial_product_generator.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/partial_product_generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/partial_product_generator.v|
+!i113 1
+R5
+R6
+vripple_carry_adder
+R0
+!i10b 1
+!s100 2MEg]A0=^[;Ch3aL`Q?Y92
+IS9L>X^aoh7BL`o9M<h^Nz2
+R1
+R2
+w1711011284
+8D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/ripple_carry_adder.v
+FD:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/ripple_carry_adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/ripple_carry_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/ripple_carry_adder.v|
+!i113 1
+R5
+R6
+vtest
+R7
+!i10b 1
+!s100 FbI2SbZ^CnQMWb]OkY2152
+IXI2`1U0az8=nLTVnUDMHM2
+R1
+R2
+w1710989462
+8D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/test/test.v
+FD:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/test/test.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/test/test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/test/test.v|
+!i113 1
+R5
+R6
+vwallace_tree_multiplier_top
+R0
+!i10b 1
+!s100 2G:e7>B>X2KDYgoomI?cD2
+IFZ>FO]VoL`ZImSgzPK1U_2
+R1
+R2
+w1711012969
+8D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/wallace_tree_multipler_top.v
+FD:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/wallace_tree_multipler_top.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/wallace_tree_multipler_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/wallace_tree_multipler_top.v|
+!i113 1
+R5
+R6
+vwallace_tree_multiplier_top_tb
+R0
+!i10b 1
+!s100 7^FfdkzC;j0U?0S9<6b^`1
+ISE2nAGhZm5JbD]fIlbSXn2
+R1
+R2
+w1711016270
+8D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/wallace_tree_multipler_top_tb.v
+FD:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/wallace_tree_multipler_top_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/wallace_tree_multipler_top_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/wallace_tree_multipler_top_tb.v|
+!i113 1
+R5
+R6
