@@ -138,21 +138,27 @@ module configurable_multiplication_tb ();
         @(posedge done);
         #50;
         //--------test2------------
-        slv_reg1    =   (-3398<<16) + 7159;    // multiplicand and multiplier
+        slv_reg1    =   (-938<<16) + 6859;    // multiplicand and multiplier
         slv_reg0    = 8'h07;    // pararllel 8-bit, enable, reset off;
-        @(posedge clk_i);
+        repeat(2) @(negedge clk_i);
         slv_reg0 = 8'h05;    // pararllel 8-bit, disenable, reset off;
         @(posedge done);
         #50;
 
         //--------test3------------
-        slv_reg1    =   (-3398<<16) + 7159;    // multiplicand and multiplier
+        slv_reg1    =   (5398<<16) + -11159;    // multiplicand and multiplier
         slv_reg0    = 8'h03;    // single 8-bit, enable, reset off;
-        @(posedge clk_i);
+        repeat(2) @(negedge clk_i);
         slv_reg0 = 8'h01;    // single 8-bit, disenable, reset off;
         @(posedge done);
         #50;
 
+        slv_reg1    =   (13398<<16) + -2345;    // multiplicand and multiplier
+        slv_reg0    = 8'h0b;    // single 16-bit, enable, reset off;
+        //repeat(2) @(negedge clk_i);
+        //slv_reg0 = 8'h01;    // single 8-bit, disenable, reset off;
+        @(posedge done);
+        #1000;
         $stop;
     end
 endmodule

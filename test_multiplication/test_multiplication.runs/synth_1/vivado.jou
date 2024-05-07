@@ -2,8 +2,8 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Tue May  7 20:56:02 2024
-# Process ID: 10916
+# Start of session at: Wed May  8 00:40:54 2024
+# Process ID: 8260
 # Current directory: D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/test_multiplication/test_multiplication.runs/synth_1
 # Command line: vivado.exe -log configurable_multiplication.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source configurable_multiplication.tcl
 # Log file: D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/test_multiplication/test_multiplication.runs/synth_1/configurable_multiplication.vds

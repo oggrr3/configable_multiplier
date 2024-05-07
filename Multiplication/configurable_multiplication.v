@@ -42,7 +42,8 @@ module configurable_multiplication (
 
     assign      product16x16_o      =   product16x16        ;
     assign      data_valid_o        =   data_valid          ;
-    assign      enable_to_SEU   =   AHBH_data_valid & AHBL_data_valid & ALBH_data_valid & ALBL_data_valid   ;
+    //assign      enable_to_SEU   =   AHBH_data_valid & AHBL_data_valid & ALBH_data_valid & ALBL_data_valid   ;
+    assign      enable_to_SEU       =   (cm_i == 2'b10) ? 1 : 0 ;
 
     assign      AH  =   multiplicand_i[15:8]    ;
     assign      AL  =   multiplicand_i[7:0]     ;
