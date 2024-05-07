@@ -1,1 +1,0 @@
-create_clock -period 10 -name clock_i -waveform {0.000 5.000} [get_ports clk_i]

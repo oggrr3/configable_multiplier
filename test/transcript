@@ -1,0 +1,12 @@
+# Loading project test
+# Compile of test.v was successful.
+# Compile of carry_save_adder_y_smaller_z.v was successful.
+# Compile of cary_save_adder_y_equal_z.v was successful.
+# Compile of compression_wallace_tree.v was successful.
+# Compile of fulladder.v was successful.
+# Compile of partial_product_generator.v was successful.
+# Compile of ripple_carry_adder.v was successful.
+# Compile of wallace_tree_multipler_top.v was successful.
+# Compile of wallace_tree_multipler_top_tb.v was successful.
+# Compile of carry_save_tb.v was successful.
+# 10 compiles, 0 failed with no errors.

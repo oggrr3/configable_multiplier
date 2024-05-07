@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../Multiplication/booth_multiply_fsmd.v" \
+"../../../../../Multiplication/configurable_multiplication.v" \
+"../../../../../Multiplication/sign_extra_unit.v" \
+"../../../../../Multiplication/configurable_multiplication_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

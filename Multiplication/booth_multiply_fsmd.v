@@ -24,6 +24,7 @@ module booth_multiply_fsmd  #(parameter DATA_SIZE = 8 )
     reg     [7:0]       old_acc                         ;
     reg     [7:0]       old_q                           ;
     reg                 old_q_1                         ;
+    reg     [7:0]       old_count                       ;
     reg     [7:0]       count                           ;  
     reg                 handle_acc_done                 ;
 
@@ -104,14 +105,14 @@ module booth_multiply_fsmd  #(parameter DATA_SIZE = 8 )
                 end
                 q       =   old_q   ;
                 q_1     =   old_q_1 ;
-                count   =   8       ;
+                count   =   old_count       ;
                 product =   0       ;
                 data_valid  =   0   ;
                 handle_acc_done =   1   ;
             end
 
             ARITHMETIC_RIGHT_SHIFT  : begin
-                {acc, q, q_1}   =   {acc[7], acc, q}    ;
+                {acc, q, q_1}   =   {old_acc[7], old_acc, q}    ;
                 count   =   count - 1   ;
                 product =   0   ;
                 data_valid  =   0   ;
@@ -146,11 +147,13 @@ module booth_multiply_fsmd  #(parameter DATA_SIZE = 8 )
             old_acc             <=   0                   ;
             old_q               <=   0                   ;
             old_q_1             <=   0                   ;
+            old_count           <=  0                   ;
         end
         else begin
             old_acc             <=   acc                    ;
             old_q               <=   q                      ;
             old_q_1             <=   q_1                    ;
+            old_count           <=   count                  ;
         end
     end
 
