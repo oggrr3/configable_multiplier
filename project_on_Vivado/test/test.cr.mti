@@ -1,0 +1,71 @@
+D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/carry_save_adder_y_smaller_z.v {1 {vlog -work work -stats=none D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/carry_save_adder_y_smaller_z.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module carry_save_adder_y_smaller_z
+
+Top level modules:
+	carry_save_adder_y_smaller_z
+
+} {} {}} D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/ripple_carry_adder.v {1 {vlog -work work -stats=none D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/ripple_carry_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ripple_carry_adder
+
+Top level modules:
+	ripple_carry_adder
+
+} {} {}} D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/partial_product_generator.v {1 {vlog -work work -stats=none D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/partial_product_generator.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module partial_product_generator
+
+Top level modules:
+	partial_product_generator
+
+} {} {}} D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/fulladder.v {1 {vlog -work work -stats=none D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/fulladder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fulladder
+
+Top level modules:
+	fulladder
+
+} {} {}} D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/test/test.v {1 {vlog -work work -stats=none D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/test/test.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}} D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/wallace_tree_multipler_top.v {1 {vlog -work work -stats=none D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/wallace_tree_multipler_top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module wallace_tree_multiplier_top
+
+Top level modules:
+	wallace_tree_multiplier_top
+
+} {} {}} D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/testbench/carry_save_tb.v {1 {vlog -work work -stats=none D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/testbench/carry_save_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module carry_save_tb
+
+Top level modules:
+	carry_save_tb
+
+} {} {}} D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/wallace_tree_multipler_top_tb.v {1 {vlog -work work -stats=none D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/wallace_tree_multipler_top_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module wallace_tree_multiplier_top_tb
+
+Top level modules:
+	wallace_tree_multiplier_top_tb
+
+} {} {}} D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/cary_save_adder_y_equal_z.v {1 {vlog -work work -stats=none D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/cary_save_adder_y_equal_z.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module carry_save_adder_y_equal_z
+
+Top level modules:
+	carry_save_adder_y_equal_z
+
+} {} {}} D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/compression_wallace_tree.v {1 {vlog -work work -stats=none D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/compression_wallace_tree.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module compression_wallace_tree
+
+Top level modules:
+	compression_wallace_tree
+
+} {} {}}

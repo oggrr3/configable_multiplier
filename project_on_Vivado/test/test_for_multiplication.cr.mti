@@ -1,0 +1,29 @@
+D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/Multiplication/configurable_multiplication.v {1 {vlog -work work -stats=none D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/Multiplication/configurable_multiplication.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module configurable_multiplication
+
+Top level modules:
+	configurable_multiplication
+
+} {} {}} D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/Multiplication/configurable_multiplication_tb.v {1 {vlog -work work -stats=none D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/Multiplication/configurable_multiplication_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module configurable_multiplication_tb
+
+Top level modules:
+	configurable_multiplication_tb
+
+} {} {}} D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/Multiplication/sign_extra_unit.v {1 {vlog -work work -stats=none D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/Multiplication/sign_extra_unit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sign_extra_unit
+
+Top level modules:
+	sign_extra_unit
+
+} {} {}} D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/Multiplication/booth_multiply_fsmd.v {1 {vlog -work work -stats=none D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/Multiplication/booth_multiply_fsmd.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module booth_multiply_fsmd
+
+Top level modules:
+	booth_multiply_fsmd
+
+} {} {}}

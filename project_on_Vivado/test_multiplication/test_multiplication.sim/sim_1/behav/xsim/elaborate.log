@@ -1,0 +1,16 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto c85ea8ca92894c9ca8d29c0fe8adb945 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot configurable_multiplication_tb_behav xil_defaultlib.configurable_multiplication_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/test_multiplication/test_multiplication.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.booth_multiply_fsmd
+Compiling module xil_defaultlib.sign_extra_unit
+Compiling module xil_defaultlib.configurable_multiplication
+Compiling module xil_defaultlib.configurable_multiplication_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot configurable_multiplication_tb_behav

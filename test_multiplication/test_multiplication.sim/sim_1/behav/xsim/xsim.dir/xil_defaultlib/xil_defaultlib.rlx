@@ -1,9 +1,0 @@
-0.6
-2018.3
-Dec  7 2018
-00:33:28
-D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/Multiplication/booth_multiply_fsmd.v,1715103568,verilog,,D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/Multiplication/configurable_multiplication.v,,booth_multiply_fsmd,,,,,,,,
-D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/Multiplication/configurable_multiplication.v,1715102848,verilog,,D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/Multiplication/sign_extra_unit.v,,configurable_multiplication,,,,,,,,
-D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/Multiplication/configurable_multiplication_tb.v,1715103499,verilog,,,,configurable_multiplication_tb,,,,,,,,
-D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/Multiplication/sign_extra_unit.v,1712771001,verilog,,D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/Multiplication/configurable_multiplication_tb.v,,sign_extra_unit,,,,,,,,
-D:/Documents/Dai_hoc/SISLAB_KLTN/do_an/Wallace_Tree_Multiply_RTL_Project/test_multiplication/test_multiplication.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
