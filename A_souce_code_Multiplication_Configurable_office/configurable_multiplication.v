@@ -7,11 +7,6 @@ module configurable_multiplication (
     input   [1:0]       cm_i                    ,   //  Choose mode : single 8 bit or two parallel 8 bit or single 16 bit 
 
     output   [31:0]      product16x16_o          ,
-
-    output  [1:0]                   current_state_o           ,    
-    output  [7:0]                   count_debug           ,  
-    output  [7:0]                   acc_debug           ,  
-    output  [7:0]                   q_debug           ,  
     output              data_valid_o    
 );
     
@@ -47,8 +42,7 @@ module configurable_multiplication (
 
     assign      product16x16_o      =   product16x16        ;
     assign      data_valid_o        =   data_valid          ;
-    //assign      enable_to_SEU   =   AHBH_data_valid & AHBL_data_valid & ALBH_data_valid & ALBL_data_valid   ;
-    assign      enable_to_SEU       =   (cm_i == 2'b10) ? 1 : 0 ;
+    assign      enable_to_SEU   =   AHBH_data_valid & AHBL_data_valid & ALBH_data_valid & ALBL_data_valid   ;
 
     assign      AH  =   multiplicand_i[15:8]    ;
     assign      AL  =   multiplicand_i[7:0]     ;
@@ -98,10 +92,6 @@ module configurable_multiplication (
         .multiplicand_i     (AL             )     ,
         .multiplier_i       (BL             )     ,
         .data_valid_o       (ALBL_data_valid)     ,
-.current_state_o           (current_state_o )	,
-.count_debug (count_debug),
-.acc_debug (acc_debug),
-.q_debug (q_debug),
         .product_o          (ALBL_product   )
     );
 
@@ -155,7 +145,14 @@ module configurable_multiplication (
         // Generate enable signals
         case (cm_i)
             2'b00        :  begin
-                product16x16    =   0 | ALBL_product    ;
+                if (ALBL_product[15]) begin
+                            product16x16[31:16]   =   16'b1111_1111_1111_1111  ;
+                            product16x16[15:0]    =   ALBL_product              ;
+                        end
+                        else begin
+                            product16x16[31:16]   =   16'b0000_0000_0000_0000  ;
+                            product16x16[15:0]    =   ALBL_product              ;
+                        end
                 data_valid      =   ALBL_data_valid     ;
             end
 
