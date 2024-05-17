@@ -1,8 +1,8 @@
 import time
 
 # Convert hexadecimal numbers to integers
-hex_num1 = 0xabcd
-hex_num2 = 0x123456
+hex_num1 = 0xabcc
+hex_num2 = 0xccdd
 
 start_time = time.time()
 
@@ -13,5 +13,6 @@ for i in range(1000000):
 end_time = time.time()
 elapsed_time = "{:0.9f}".format(end_time - start_time)
 
-print("Multiplication result:", hex(result))
-print("Multiplication time:", (elapsed_time), "seconds")
+print("")
+print("Multiplication result:",hex(hex_num1), " x ", hex(hex_num2), " = ", hex(result))
+print("Multiplication time:", (elapsed_time), "us\n")

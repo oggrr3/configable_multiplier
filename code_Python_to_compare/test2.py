@@ -1,5 +1,6 @@
 import re
 from tabulate import tabulate
+import pandas as pd
 
 def twos_complement(hexstr, bits):
     value = int(hexstr, 16)
@@ -26,7 +27,7 @@ with open("test_for_multiplication_IP_FPGA_text.txt", "r") as f:
             b_hex = temp[3]
             product_soc_hex = temp[4]
             if a * b == product_soc:
-                results.append([stt, "CORRECT", a_hex, b_hex, product_soc_hex, a, b, product_soc, ""])
+                results.append([stt, "CORRECT", a_hex, b_hex, product_soc_hex, a, b, product_soc, a * b])
             else:
                 results.append([stt, "INCORRECT", a_hex, b_hex, product_soc_hex, a, b, product_soc, a * b])
                 number_faile += 1
@@ -38,7 +39,7 @@ with open("test_for_multiplication_IP_FPGA_text.txt", "r") as f:
             b_hex = temp[3]
             product_soc_hex = temp[4]
             if a * b == product_soc:
-                results.append([stt, "CORRECT", a_hex, b_hex, product_soc_hex, a, b, product_soc, ""])
+                results.append([stt, "CORRECT", a_hex, b_hex, product_soc_hex, a, b, product_soc, a * b])
             else:
                 results.append([stt, "INCORRECT", a_hex, b_hex, product_soc_hex, a, b, product_soc, a * b])
                 number_faile += 1
@@ -53,14 +54,21 @@ with open("test_for_multiplication_IP_FPGA_text.txt", "r") as f:
             b7_0 = twos_complement(pairs_b[1], 8)
             product_soc15_0 = twos_complement(pairs_product[1], 16)
             if (a15_8 * b15_8 == product_soc31_16) and (a7_0 * b7_0 == product_soc15_0):
-                results.append([stt, "CORRECT", pairs_a[0], pairs_b[0], pairs_product[0], a15_8, b15_8, product_soc31_16, ""])
-                results.append([stt, "CORRECT", pairs_a[1], pairs_b[1], pairs_product[1], a7_0, b7_0, product_soc15_0, ""])
+                results.append([stt, "CORRECT", pairs_a[0], pairs_b[0], pairs_product[0], a15_8, b15_8, product_soc31_16, a15_8 * b15_8])
+                results.append([stt, "CORRECT", pairs_a[1], pairs_b[1], pairs_product[1], a7_0, b7_0, product_soc15_0, a7_0 * b7_0])
             else:
                 results.append([stt, "INCORRECT", pairs_a[0], pairs_b[0], pairs_product[0], a15_8, b15_8, product_soc31_16, a15_8 * b15_8])
                 results.append([stt, "INCORRECT", pairs_a[1], pairs_b[1], pairs_product[1], a7_0, b7_0, product_soc15_0, a7_0 * b7_0])
                 number_faile += 1
 
-# Define headers and print the table
+# Define headers
 headers = ["STT", "Status", "A (Hex)", "B (Hex)", "Product_SOC (Hex)", "A (Dec)", "B (Dec)", "Product_SOC (Dec)", "Expected Product (Dec)"]
+
+# Convert results to DataFrame
+df = pd.DataFrame(results, columns=headers)
+
+# Write DataFrame to Excel file
+df.to_excel("results.xlsx", index=False)
+
 print(tabulate(results, headers, tablefmt="grid"))
 print(f"Chay 100 mau: So truong hop sai la: {number_faile}")
